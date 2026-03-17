@@ -88,4 +88,4 @@ $$
 
 ## Interpretation
 
-The acceleration is constant, which indicates uniformly accelerated motion.
+The acceleration is constant since in the final acceleration vector has no t in it, which indicates uniformly accelerated motion meaning the acceleration does not change as time passes.
