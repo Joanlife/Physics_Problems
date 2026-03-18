@@ -114,4 +114,4 @@ $$
 
 ## Plot the velocity and acceleration
 
-![Velocity and Acceleration Plots](velocity_acceleration_plots.png)
+![Velocity and Acceleration graphs](velocity_acceleration_plots.png)
