@@ -46,9 +46,6 @@ $$
 ### 2. Time of Flight
 The projectile hits the ground when $y(t) = 0$ for $t > 0$:
 
-$$
-0 = t(v_0 \sin\theta - \frac{1}{2}gt)
-$$
 
 $$
 t_f = \frac{2v_0 \sin\theta}{g}
@@ -64,7 +61,7 @@ $$
 Maximum height occurs when $v_y(t) = 0$, which is at $t = \frac{t_f}{2}$:
 
 $$
-H = y\left(\frac{v_0 \sin\theta}{g}\right) = \frac{v_0^2 \sin^2\theta}{2g}
+H = \frac{v_0^2 \sin^2\theta}{2g}
 $$
 
 $$
@@ -75,7 +72,7 @@ $$
 The range is the horizontal displacement at $t = t_f$:
 
 $$
-R = x(t_f) = (v_0 \cos\theta) \left(\frac{2v_0 \sin\theta}{g}\right) = \frac{v_0^2 \sin(2\theta)}{g}
+R = x(t_f)  = \frac{v_0^2 \sin(2\theta)}{g}
 $$
 
 $$
