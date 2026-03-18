@@ -23,62 +23,24 @@ Neglecting air resistance, the horizontal acceleration is zero, and the vertical
 ## Step-by-Step Solution: Calculus Derivation
 
 ### 1. Horizontal Motion ($x$-direction)
-From Newton's Second Law, $F_x = m a_x$. Since there is no air resistance, $F_x = 0$.
+From Newton's Second Law, $F_x = m a_x$. Since there is no air resistance, $F_x = 0$ and since acceleration is the second derivative of velocity $$a_x = \frac{d^2x}{dt^2}$$
 
-**Step A: Differential Equation**
+**Calculating Differential Equation**
 
 $$
 m \frac{d^2x}{dt^2} = 0 \implies \frac{dv_x}{dt} = 0
 $$
 
-**Step B: Integration for Velocity**
-Integrate both sides with respect to $t$:
 
-$$
-\int \frac{dv_x}{dt} dt = \int 0 dt \implies v_x(t) = C_1
-$$
-
-Using initial condition $v_x(0) = v_0 \cos\theta$, we find $C_1 = v_0 \cos\theta$.
-
-**Step C: Integration for Position**
-Since $v_x = \frac{dx}{dt}$:
-
-$$
-\int \frac{dx}{dt} dt = \int v_0 \cos\theta dt \implies x(t) = (v_0 \cos\theta)t + C_2
-$$
-
-Using $x(0) = 0$, we find $C_2 = 0$.
 
 ### 2. Vertical Motion ($y$-direction)
 From Newton's Second Law, $F_y = -mg$.
 
-**Step A: Differential Equation**
+**Calculating Differential Equation**
 
 $$
 m \frac{d^2y}{dt^2} = -mg \implies \frac{dv_y}{dt} = -g
 $$
-
-**Step B: Integration for Velocity**
-
-$$
-\int dv_y = \int -g dt \implies v_y(t) = -gt + C_3
-$$
-
-Using initial condition $v_y(0) = v_0 \sin\theta$, we find $C_3 = v_0 \sin\theta$:
-
-$$
-v_y(t) = v_0 \sin\theta - gt
-$$
-
-**Step C: Integration for Position**
-Since $v_y = \frac{dy}{dt}$:
-
-$$
-\int dy = \int (v_0 \sin\theta - gt) dt \implies y(t) = (v_0 \sin\theta)t - \frac{1}{2}gt^2 + C_4
-$$
-
-Using $y(0) = 0$, we find $C_4 = 0$.
-
 
 
 ### 2. Time of Flight
