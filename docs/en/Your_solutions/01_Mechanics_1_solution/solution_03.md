@@ -68,7 +68,7 @@ $$
 f(t) = 26t^2 - 66t + 45
 $$
 
-To minimize, $f'(t) = 52t - 66 = 0 \implies t = \frac{66}{52} \approx 1.27 \text{ s}$.
+To minimize we differentiate hence,               $f'(t) = 52t - 66 = 0 \implies t = \frac{66}{52} \approx 1.27 \text{ s}$.
 
 $$
 D_{min} = \sqrt{26(1.27)^2 - 66(1.27) + 45} \approx 1.76 \text{ units}
