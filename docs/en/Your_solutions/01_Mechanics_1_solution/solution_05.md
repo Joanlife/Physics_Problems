@@ -14,9 +14,6 @@ $$
 
 For the boat to travel directly north, the eastward component of its velocity relative to the ground must be zero.
 
-![Relative Velocity Illustration](./Relative_velocity_illustration.png)
-
-
 
 ## Step-by-Step Solution
 
