@@ -34,7 +34,7 @@ $$
 
 
 ### 2. Vertical Motion ($y$-direction)
-From Newton's Second Law, $F_y = -mg$.
+From Newton's Second Law, $F_y = -mg$, $$a_y = \frac{d^2y}{dt^2}$$
 
 **Calculating Differential Equation**
 
