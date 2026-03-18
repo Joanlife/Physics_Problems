@@ -20,22 +20,6 @@ $$
 
 Neglecting air resistance, the horizontal acceleration is zero, and the vertical acceleration is constant.
 
-## Step-by-Step Solution
-
-# Task 01 – Projectile Motion (Detailed Derivations)
-
-## Problem Statement
-A projectile is fired from $y=0$ with $v_0 = 100 \text{ m/s}$ at $\theta = 37^\circ$. Derive the equations of motion using calculus and determine the flight parameters.
-
-## Theory
-We define a Cartesian coordinate system where the origin $(0,0)$ is the launch point. The only force acting is gravity $\vec{F} = -mg\hat{j}$. 
-
-The initial velocity vector is decomposed as:
-
-$$
-\vec{v}_0 = \begin{pmatrix} v_0 \cos\theta \\ v_0 \sin\theta \end{pmatrix}
-$$
-
 ## Step-by-Step Solution: Calculus Derivation
 
 ### 1. Horizontal Motion ($x$-direction)
