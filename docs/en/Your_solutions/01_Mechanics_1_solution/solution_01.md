@@ -1,51 +1,14 @@
-# Solutions goes here
-
 # Task 01 – Projectile Motion
 
 ## Problem Statement
-
-A projectile is fired from the ground with an initial velocity of $100 \text{ m/s}$ at an angle of $37^\circ$ above the horizontal. Air resistance is neglected.
-
-Determine:
-
-- the differential equations of motion
-- the time of flight
-- the maximum height
-- the range
-
----
+A projectile is fired from the ground with an initial velocity $v_0 = 100 \text{ m/s}$ at an angle $\theta = 37^\circ$ above the horizontal. Assuming no air resistance:
+* Derive the differential equations of motion in the horizontal and vertical directions.
+* Determine the time of flight $t_f$.
+* Determine the maximum height $H$.
+* Determine the range $R$.
 
 ## Theory
-
-Projectile motion under constant gravitational acceleration is described by Newton's second law.
-
-Only gravity acts on the projectile:
-
-$$
-\vec{F} = m\vec{a}
-$$
-
-The gravitational acceleration is
-
-$$
-\vec{a} = (0,-g)
-$$
-
-where
-
-$$
-g \approx 9.81 \text{ m/s}^2
-$$
-
-The motion separates naturally into horizontal and vertical components.
-
----
-
-## Step-by-Step Solution
-
-### Initial Velocity Components
-
-The initial velocity $v_0$ is decomposed into components:
+Projectile motion is a case of two-dimensional kinematics where the only acceleration acting on the object is gravity $\vec{g}$, acting vertically downward. We decompose the initial velocity into components:
 
 $$
 v_{0x} = v_0 \cos\theta
@@ -55,194 +18,129 @@ $$
 v_{0y} = v_0 \sin\theta
 $$
 
-For
+Neglecting air resistance, the horizontal acceleration is zero, and the vertical acceleration is constant.
+
+## Step-by-Step Solution
+
+# Task 01 – Projectile Motion (Detailed Derivations)
+
+## Problem Statement
+A projectile is fired from $y=0$ with $v_0 = 100 \text{ m/s}$ at $\theta = 37^\circ$. Derive the equations of motion using calculus and determine the flight parameters.
+
+## Theory
+We define a Cartesian coordinate system where the origin $(0,0)$ is the launch point. The only force acting is gravity $\vec{F} = -mg\hat{j}$. 
+
+The initial velocity vector is decomposed as:
 
 $$
-v_0 = 100
+\vec{v}_0 = \begin{pmatrix} v_0 \cos\theta \\ v_0 \sin\theta \end{pmatrix}
 $$
 
-$$
-\theta = 37^\circ
-$$
+## Step-by-Step Solution: Calculus Derivation
 
-Approximate values:
+### 1. Horizontal Motion ($x$-direction)
+From Newton's Second Law, $F_x = m a_x$. Since there is no air resistance, $F_x = 0$.
 
-$$
-v_{0x} \approx 100 \cos 37^\circ \approx 80
-$$
+**Step A: Differential Equation**
 
 $$
-v_{0y} \approx 100 \sin 37^\circ \approx 60
+m \frac{d^2x}{dt^2} = 0 \implies \frac{dv_x}{dt} = 0
 $$
 
----
-
-### Differential Equations of Motion
-
-Horizontal direction:
+**Step B: Integration for Velocity**
+Integrate both sides with respect to $t$:
 
 $$
-\frac{d^2 x}{dt^2} = 0
+\int \frac{dv_x}{dt} dt = \int 0 dt \implies v_x(t) = C_1
 $$
 
-Vertical direction:
+Using initial condition $v_x(0) = v_0 \cos\theta$, we find $C_1 = v_0 \cos\theta$.
+
+**Step C: Integration for Position**
+Since $v_x = \frac{dx}{dt}$:
 
 $$
-\frac{d^2 y}{dt^2} = -g
+\int \frac{dx}{dt} dt = \int v_0 \cos\theta dt \implies x(t) = (v_0 \cos\theta)t + C_2
 $$
 
----
+Using $x(0) = 0$, we find $C_2 = 0$.
 
-### Velocity Functions
+### 2. Vertical Motion ($y$-direction)
+From Newton's Second Law, $F_y = -mg$.
 
-Integrating acceleration gives velocity.
-
-Horizontal velocity:
-
-$$
-v_x(t) = v_{0x}
-$$
-
-Vertical velocity:
+**Step A: Differential Equation**
 
 $$
-v_y(t) = v_{0y} - gt
+m \frac{d^2y}{dt^2} = -mg \implies \frac{dv_y}{dt} = -g
 $$
 
----
-
-### Position Functions
-
-Integrating velocity:
+**Step B: Integration for Velocity**
 
 $$
-x(t) = v_{0x} t
+\int dv_y = \int -g dt \implies v_y(t) = -gt + C_3
 $$
 
-$$
-y(t) = v_{0y} t - \frac{1}{2}gt^2
-$$
-
----
-
-### Time of Flight
-
-The projectile lands when
+Using initial condition $v_y(0) = v_0 \sin\theta$, we find $C_3 = v_0 \sin\theta$:
 
 $$
-y(T) = 0
+v_y(t) = v_0 \sin\theta - gt
 $$
 
-Thus
+**Step C: Integration for Position**
+Since $v_y = \frac{dy}{dt}$:
 
 $$
-0 = v_{0y}T - \frac{1}{2}gT^2
+\int dy = \int (v_0 \sin\theta - gt) dt \implies y(t) = (v_0 \sin\theta)t - \frac{1}{2}gt^2 + C_4
 $$
 
-Factor:
+Using $y(0) = 0$, we find $C_4 = 0$.
+
+
+
+### 2. Time of Flight
+The projectile hits the ground when $y(t) = 0$ for $t > 0$:
 
 $$
-T(v_{0y} - \frac{gT}{2}) = 0
-$$
-
-Non-trivial solution:
-
-$$
-T = \frac{2v_{0y}}{g}
-$$
-
-Substitute values:
-
-$$
-T = \frac{2(60)}{9.81}
+0 = t(v_0 \sin\theta - \frac{1}{2}gt)
 $$
 
 $$
-T \approx 12.2 \text{ s}
+t_f = \frac{2v_0 \sin\theta}{g}
 $$
 
----
-
-### Maximum Height
-
-Maximum height occurs when
+Using $v_0 = 100$, $\theta = 37^\circ$, and $g \approx 9.81 \text{ m/s}^2$:
 
 $$
-v_y = 0
+t_f = \frac{2 \cdot 100 \cdot \sin(37^\circ)}{9.81} \approx 12.27 \text{ s}
 $$
 
-Thus
+### 3. Maximum Height
+Maximum height occurs when $v_y(t) = 0$, which is at $t = \frac{t_f}{2}$:
 
 $$
-0 = v_{0y} - gt
+H = y\left(\frac{v_0 \sin\theta}{g}\right) = \frac{v_0^2 \sin^2\theta}{2g}
 $$
 
 $$
-t = \frac{v_{0y}}{g}
+H = \frac{100^2 \cdot \sin^2(37^\circ)}{2 \cdot 9.81} \approx 184.6 \text{ m}
 $$
 
-Substitute into the position equation:
+### 4. Range
+The range is the horizontal displacement at $t = t_f$:
 
 $$
-H = \frac{v_{0y}^2}{2g}
-$$
-
-Numerically:
-
-$$
-H = \frac{60^2}{2(9.81)}
+R = x(t_f) = (v_0 \cos\theta) \left(\frac{2v_0 \sin\theta}{g}\right) = \frac{v_0^2 \sin(2\theta)}{g}
 $$
 
 $$
-H \approx 183.5 \text{ m}
+R = \frac{100^2 \cdot \sin(74^\circ)}{9.81} \approx 979.9 \text{ m}
 $$
-
----
-
-### Range
-
-The horizontal range is
-
-$$
-R = v_{0x}T
-$$
-
-Substitute values:
-
-$$
-R = 80 \times 12.2
-$$
-
-$$
-R \approx 976 \text{ m}
-$$
-
----
 
 ## Final Result
-
-Time of flight:
-
-$$
-T \approx 12.2 \text{ s}
-$$
-
-Maximum height:
-
-$$
-H \approx 183.5 \text{ m}
-$$
-
-Range:
-
-$$
-R \approx 976 \text{ m}
-$$
-
----
+* **Equations:** $\ddot{x}=0, \ddot{y}=-g$
+* **Time of Flight:** $12.27 \text{ s}$
+* **Max Height:** $184.6 \text{ m}$
+* **Range:** $979.9 \text{ m}$
 
 ## Interpretation
-
-The horizontal and vertical motions are independent.
-
-Gravity affects only the vertical motion, while horizontal velocity remains constant. The resulting trajectory is a parabola....
+The motion is parabolic. The horizontal velocity remains constant throughout the flight, while the vertical velocity changes linearly due to gravity.
