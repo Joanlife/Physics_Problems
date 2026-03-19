@@ -78,6 +78,7 @@ $$
 ## Final Result
 - trajectory: helix
 - motion: periodic in plane, linear in height
+* Path Length: $t_0\sqrt{a^2\omega^2 + b^2}$ (for the circular case).
 
 
 ---
