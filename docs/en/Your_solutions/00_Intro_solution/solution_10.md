@@ -1,67 +1,45 @@
-# Task 10 – Infinite Series
+# Task 10 – Infinite Series (The Ant's Path)
 
 ## Problem Statement
-
-An ant moves according to the pattern:
-
-1 m east,  
-1/2 m north,  
-1/3 m west,  
-1/4 m south,  
-1/5 m east, and so on.
-
-Determine its final position.
-
----
+An ant moves 1 m East, 1/2 m North, 1/3 m West, 1/4 m South, 1/5 m East, etc. Determine its final position $(x, y)$.
 
 ## Theory
-
-The motion separates into two alternating infinite series: one horizontal and one vertical.
-
----
+The movement follows the alternating harmonic series in two separate dimensions.
+East/West moves affect $x$: $1 - 1/3 + 1/5 - 1/7 \dots$
+North/South moves affect $y$: $1/2 - 1/4 + 1/6 - 1/8 \dots$
 
 ## Step-by-Step Solution
 
+### X-Coordinate
 Horizontal displacement:
 
 $$
 1 - \frac{1}{3} + \frac{1}{5} - \frac{1}{7} + \dots
 $$
-
-This series is known:
+The series is the expansion for $\arctan(x)$ where $x=1$:
 
 $$
-\sum_{k=0}^{\infty}\frac{(-1)^k}{2k+1} = \frac{\pi}{4}
+x = \sum_{n=0}^{\infty} \frac{(-1)^n}{2n+1} = \frac{\pi}{4}
 $$
 
+### Y-Coordinate
 Vertical displacement:
 
 $$
 \frac{1}{2} - \frac{1}{4} + \frac{1}{6} - \frac{1}{8} + \dots
 $$
-
-This series equals
+The series is half of the alternating harmonic series $\ln(2)$:
 
 $$
-\frac{1}{2}\ln 2
+y = \frac{1}{2} - \frac{1}{4} + \frac{1}{6} - \frac{1}{8} \dots = \frac{1}{2} \left( 1 - \frac{1}{2} + \frac{1}{3} - \frac{1}{4} \dots \right)
 $$
 
----
+$$
+y = \frac{1}{2} \ln(2)
+$$
 
 ## Final Result
-
-Final coordinates:
-
-$$
-x = \frac{\pi}{4}
-$$
-
-$$
-y = \frac{1}{2}\ln 2
-$$
-
----
+The final position is $\left( \frac{\pi}{4}, \frac{\ln(2)}{2} \right)$.
 
 ## Interpretation
-
-Both series converge, so the ant approaches a fixed position despite infinitely many steps.
+The ant's path spirals inward toward a specific limit point, demonstrating how discrete steps can converge to a coordinate defined by transcendental numbers.
