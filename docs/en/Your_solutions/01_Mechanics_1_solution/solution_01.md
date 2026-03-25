@@ -59,7 +59,7 @@ t_f = \frac{2 \cdot 100 \cdot \sin(37^\circ)}{9.81} \approx 12.27 \text{ s}
 $$
 
 ### 3. Maximum Height
-Maximum height occurs when $v_y(t) = 0$, which is at $t = \frac{t_f}{2}$:
+Maximum height occurs when the vertical component $v_y(t) = 0$,
 
 $$
 H = \frac{v_0^2 \sin^2\theta}{2g}
@@ -73,7 +73,7 @@ $$
 The range is the horizontal displacement at $t = t_f$:
 
 $$
-R = x(t_f)  = \frac{v_0^2 \sin(2\theta)}{g}
+R =  \frac{v_0^2 \sin(2\theta)}{g}
 $$
 
 $$
