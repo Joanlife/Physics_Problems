@@ -22,6 +22,7 @@ $$
 
 ### 2. Trajectory Description
 The trajectory is a semi-cubical parabola. Since $x = 2t^2$, $x$ is always $\geq 0$. As $t$ increases, both $x$ and $y$ increase, creating a curve that starts at the origin and grows steeper as $x$ increases.
+![Trajectory Diagram](trajectory_diagram_07.jpeg)
 
 
 
