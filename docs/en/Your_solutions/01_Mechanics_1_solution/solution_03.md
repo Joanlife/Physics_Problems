@@ -22,7 +22,7 @@ $$
 8 - 3t = 2t + 2 \implies 5t = 6 \implies t = 1.2
 $$
 
-Since $3 \neq 1.2$, the objects do not collide.
+Since $3 \neq 1.2$ this shows they don't have the same time, hence the objects do not collide.
 
 ### 2. Checking for Path Intersection
 We set $A(t_1) = B(t_2)$:
@@ -61,7 +61,7 @@ y_A - y_B = (8-3t) - (2t+2) = 6-5t
 $$
 
 $$
-f(t) = D^2(t) = (3-t)^2 + (6-5t)^2 = 9 - 6t + t^2 + 36 - 60t + 25t^2
+Assumingf(t) = D^2(t) , (3-t)^2 + (6-5t)^2 = 9 - 6t + t^2 + 36 - 60t + 25t^2
 $$
 
 $$
