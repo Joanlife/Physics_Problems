@@ -61,4 +61,4 @@ $$
 
 ## Interpretation
 To compensate for the river's current, the boat must aim upstream. This reduces its effective speed across the river compared to its speed in still water.
-
+![Relative Velocity Illustration](relative_velocity_05.png)
