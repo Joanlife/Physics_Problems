@@ -19,6 +19,7 @@ v_{0y} = v_0 \sin\theta
 $$
 
 Neglecting air resistance, the horizontal acceleration is zero, and the vertical acceleration is constant.
+![Projectile Motion Diagram](projectile_motion.jpeg)
 
 ## Step-by-Step Solution: Calculus Derivation
 
