@@ -73,6 +73,7 @@ $$
 s = \int_{0}^{t_0} \sqrt{a^2\omega^2 + b^2} dt = t_0\sqrt{a^2\omega^2 + b^2}
 $$
 
+
 ---
 
 ## Final Result
