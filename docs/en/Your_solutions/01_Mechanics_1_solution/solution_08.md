@@ -62,3 +62,4 @@ The centripetal acceleration at the equator is approximately **$0.0337 \text{ m/
 
 ## Interpretation
 While the Earth's rotation speed at the equator is quite high (approx. $460 \text{ m/s}$), the radius is so large that the resulting centripetal acceleration is minimal. It represents only about $0.34\%$ of the acceleration due to gravity ($g \approx 9.81 \text{ m/s}^2$), which is why we do not feel the rotational motion in our daily lives.
+![Earth's Equator Centripetal Acceleration Diagram](Centripetal_acceleration.png)
