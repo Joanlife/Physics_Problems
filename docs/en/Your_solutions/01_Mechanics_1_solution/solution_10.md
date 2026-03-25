@@ -41,10 +41,12 @@ $$
 $$
 
 This is an ellipse.
+![2D Projection of Trajectory](2D_trajectory_diagram.jpeg)
 
 Since $z = bt$, the motion rises linearly.
 
 Thus trajectory is a helix.
+![3D Helical Trajectory](3D_trajectory_diagram.jpeg)
 
 ---
 
