@@ -45,7 +45,7 @@ $$
 
 
 ### 2. Time of Flight
-The projectile hits the ground when $y(t) = 0$ for $t > 0$:
+The projectile hits the ground when $y(t) = 0$ when its vertical position returns to zero for $t > 0$:
 
 
 $$
