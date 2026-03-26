@@ -45,9 +45,7 @@ $$
 v_{bg, y} = 5\cos\theta = 5\cos(23.58^\circ)
 $$
 
-$$
-v_{bg, y} = 5 \sqrt{1 - \sin^2\theta} = 5 \sqrt{1 - 0.4^2} = 5 \sqrt{0.84} \approx 4.58 \text{ m/s}
-$$
+
 
 Using $d = v \cdot t$:
 
