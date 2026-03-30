@@ -4,7 +4,7 @@
 
 A simple pendulum has a period of $4\text{ s}$ on Earth. 
 
-1. What would its period be on the Moon, where the gravitational acceleration is about $1/6$th of Earth's?
+1. What would its period be on the Moon, where the gravitational acceleration is about $1/6 th$ of Earth's?
 2. What is the required length of a simple pendulum to have a period of exactly $1\text{ s}$ on Earth?
 
 ## Theory
