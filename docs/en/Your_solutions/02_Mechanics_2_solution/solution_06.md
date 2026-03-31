@@ -11,7 +11,7 @@ $$
 E = mgh
 $$
 
-If the ball loses $30\%$ of its energy, it retains $70\%$ ($0.70$) of its energy. Since $E \propto h$, the height reached after a bounce is directly proportional to the energy remaining:
+If the ball loses $30\%$ of its energy, it retains $70\%$ ($0.70$) of its energy. Since m(mass) and g(gravity) don't change, Energy(E) is directly proportional to the height(h)  $E \propto h$, the height reached after a bounce is directly proportional to the energy remaining:
 $$
 h_{new} = 0.70 \cdot h_{old}
 $$
@@ -31,7 +31,7 @@ $$
 ### 2. Energy After Second Bounce
 
 The ball now drops from $h_1$ and loses another $30\%$ of its remaining energy upon the second impact.
-Energy after 2nd bounce $E_2 = 0.70 E_1 = 0.70 (0.70 E_0)$.
+Energy after 2nd bounce $E_2 = 0.70 E_1 $.
 Height after 2nd bounce:
 
 $$
