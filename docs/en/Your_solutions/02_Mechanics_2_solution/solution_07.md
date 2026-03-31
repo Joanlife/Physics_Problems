@@ -6,7 +6,7 @@ A $5\text{ kg}$ block (Block 1) is placed on a $10\text{ kg}$ block (Block 2). A
 
 ## Theory
 
-This is a dynamics problem involving Newton's Second Law: 
+This is a dynamics problem involving Newton's Second Law because we are dealing with unbalanced forces that result in acceleration: 
 
 $$
 \sum F = ma
