@@ -60,3 +60,4 @@ The speed of the combined mass immediately after the collision is $1.92\text{ m/
 ## Interpretation
 
 The velocity decreases significantly after the collision because the mass of the system increases fourfold ($0.5\text{ kg}$ to $2.0\text{ kg}$). Since momentum must be shared with a much heavier stationary object, the final velocity is exactly one-quarter of the initial velocity ($7.672 / 4 = 1.918$).
+![Diagram of a block sliding down a track and colliding with another block, demonstrating energy conversion and inelastic collision.](energy_momentum_diagram.jpeg)
