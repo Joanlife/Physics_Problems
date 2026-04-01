@@ -6,8 +6,8 @@ A constant force $\vec{F} = [6, 2]\text{ N}$ acts on a body of mass $m = 2\text{
 The body starts with an initial velocity $\vec{v}(0) = [1, -1]\text{ m/s}$ from the point $\vec{r}(0) = [0, 0]\text{ m}$.
 
 1. Determine $\vec{a}(t)$
-2. Determine $\vec{v}(t)$ using integration
-3. Determine $\vec{r}(t)$ using integration
+2. Determine $\vec{v}(t)$ 
+3. Determine $\vec{r}(t)$ 
 4. Calculate the work done by the force at time $t = 3\text{ s}$
 5. Check the consistency with the work-energy theorem
 
