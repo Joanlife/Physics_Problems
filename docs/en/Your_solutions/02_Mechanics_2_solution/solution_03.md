@@ -60,8 +60,11 @@ $$
 
 ## Final Result
 
-The speed of the bob at the bottom of the swing is approximately $0.82\text{ m/s}$.
+The speed of the bob at the bottom of the swing is approximately $0.82\text{ m/s}$.              
+
+
 
 ## Interpretation
 
 The speed depends only on the vertical drop $h$, not on the mass of the bob. Since $15^\circ$ is a relatively small angle, the vertical displacement is small ($3.4\text{ cm}$), resulting in a modest velocity at the equilibrium point.
+![Diagram of a pendulum showing the relationship between string length L, angle theta, and height h.](Bob%20illustration.jpeg)
