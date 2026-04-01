@@ -61,3 +61,4 @@ The acceleration of the $10\text{ kg}$ block is $0.576\text{ m/s}^2$.
 ## Interpretation
 
 Even though a $45\text{ N}$ force is applied, nearly $87\%$ of that force is "wasted" overcoming friction. Because the top block is tied to the wall, it remains stationary, exerting a constant frictional drag on the moving block below it.
+![Diagram of stacked blocks with friction. Block A (5kg) is tied to a wall. Block B (10kg) is on a surface and is pulled with a 45 N force. Kinetic friction coefficient is 0.2 for both interfaces.](Dynamics%20illustration.jpeg)
