@@ -52,7 +52,7 @@ k = 10 \cdot (10\pi)^2 = 10 \cdot 100\pi^2 = 1000\pi^2
 $$
 
 $$
-k \approx 1000 \cdot 9.87 \approx 9869.6\text{ N/m}
+k \approx 9869.6\text{ N/m}
 $$
 
 ### 2. Finding Total Mechanical Energy
@@ -72,7 +72,7 @@ E = 500\pi^2 \cdot 0.04 = 20\pi^2
 $$
 
 $$
-E \approx 20 \cdot 9.87 \approx 197.39\text{ J}
+E \ \approx 197.39\text{ J}
 $$
 
 ## Final Result
