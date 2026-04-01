@@ -56,3 +56,5 @@ $$
 ## Interpretation
 
 Two-thirds of the initial kinetic energy ($210\text{ J}$) was lost during the jump. This energy was dissipated through the work done by friction between the runner's shoes and the cart to bring them to a common velocity, as well as biological damping in the runner's legs.
+![Runner and cart moving together as a single 210kg system.](IE%20collision%20illustration%201.jpeg)
+![Runner (70kg, 3m/s) approaching a stationary cart (140kg).](IE%20collision%20illustration%202.jpeg)
