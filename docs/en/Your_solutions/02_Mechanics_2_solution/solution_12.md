@@ -104,6 +104,8 @@ $\Delta K = 104 - 2 = 102\text{ J}$
 
 Since $W = \Delta K$, the theorem is verified,whereby it states that the total work done on an object equals its change in kinetic energy.
 
+![Graph of the Trajectory of Motion, showing position (x,y) over time. The curve starts at (0,0) and reaches (16.5, 1.5) at t=3s.](Trajectory%2012.jpeg)
+
 ## Final Result
 
 * $\vec{a} = [3, 1]\text{ m/s}^2$
