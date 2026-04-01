@@ -64,6 +64,10 @@ The position vector is:
 $$
 \vec{r}(t) = \begin{pmatrix} \frac{5}{6}t^3 + 2t + 5 \\ \frac{1}{6}t^3 - 2t^2 + 2 \\ -\frac{1}{6}t^4 + t - 3 \end{pmatrix}
 $$
+The velocity vector is:
+$$
+\vec{v}(t) = \left[ \frac{5}{2}t^2 + 2, \frac{1}{2}t^2 - 4t, -\frac{2}{3}t^3 + 1 \right] \text{ m/s}
+$$
 
 ## Interpretation
 
