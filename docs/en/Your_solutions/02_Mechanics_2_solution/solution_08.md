@@ -78,6 +78,7 @@ $$
 $$
 
 The derivative confirms that the force $F(x)$ always points "downhill" toward the minimum potential energy.
+![Graph of force F(x)=-kx and potential energy U(x)=½kx² over position x. The force is a linear downward slope, and the energy is a positive parabola, highlighting their derivative relationship.](graph%20no%208.jpeg)
 
 ## Final Result
 
