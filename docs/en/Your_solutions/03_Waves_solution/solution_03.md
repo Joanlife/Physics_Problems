@@ -46,7 +46,7 @@ y_{res}(x, t) = [2A \sin(kx)] \cos(\omega t)
 $$
 
 ### 2. Identifying Node Positions
-Nodes are points where the displacement is always zero ($y_{res} = 0$) regardless of time $t$. This occurs when the spatial part of the equation is zero:
+Nodes are points where the displacement is always zero ($y_{res} = 0$) regardless of time $t$. This occurs when the spatial amplitude part of the equation is zero:
 
 $$
 \sin(kx) = 0
