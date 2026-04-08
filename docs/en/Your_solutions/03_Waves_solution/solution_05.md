@@ -60,3 +60,4 @@ $$
 ## Interpretation
 
 Because the sound has to "go and come back," the actual distance to the obstacle is exactly half the distance sound can travel in the measured time interval. This principle is fundamental to biological echolocation (bats) and human technology (radar/sonar).
+
