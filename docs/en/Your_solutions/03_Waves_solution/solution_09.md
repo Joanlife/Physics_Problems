@@ -42,7 +42,7 @@ $$
 \frac{dv}{dt} &= -\frac{b}{m}v - \frac{k}{m}x
 \end{align}
 $$
-
+![Displacement vs Time and Phase Portrait for Damped Harmonic Oscillators](illustration.jpeg)
 ## Interactive Implementation
 
 The following HTML code creates a simulation with a slider for the damping coefficient $b$.
