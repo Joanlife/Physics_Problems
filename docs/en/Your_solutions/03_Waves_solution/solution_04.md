@@ -6,7 +6,7 @@ What is the phase difference in radians between two points on a wave that are se
 
 ## Theory
 
-The phase of a wave $\phi$ describes the specific position within a single cycle of the periodic motion. For a traveling wave described by $y(x,t) = A \sin(kx - \omega t + \phi_0)$, the phase at any point is the argument of the sine function.
+The phase of a wave $\phi$ describes the  relative displacement between two waves that share the same frequency . For a traveling wave described by $y(x,t) = A \sin(kx - \omega t + \phi_0)$, the phase at any point is the argument of the sine function.
 
 The phase difference $\Delta \phi$ between two points separated by a distance $\Delta x$ is proportional to the ratio of that distance to the total wavelength $\lambda$. Since one full wavelength ($1\lambda$) corresponds to a phase shift of $2\pi$ radians (one full circle), the relationship is:
 
