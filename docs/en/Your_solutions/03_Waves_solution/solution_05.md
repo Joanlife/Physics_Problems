@@ -61,3 +61,4 @@ $$
 
 Because the sound has to "go and come back," the actual distance to the obstacle is exactly half the distance sound can travel in the measured time interval. This principle is fundamental to biological echolocation (bats) and human technology (radar/sonar).
 
+![Diagram illustrating the principle of echo ranging to determine the distance to a cliff. A person stands at distance D from a cliff. The outbound sound path of 343 m/s travels to the cliff, and the return path or echo of 343 m/s travels back. The total sound path distance is 2D, or D + D. The total time elapsed is 1 second, calculated from t=0s for the shout to t=1s for the echo to be heard. Key: D = one-way distance, d = one-way distance, 2D = two-way distance.](echo.jpeg)
