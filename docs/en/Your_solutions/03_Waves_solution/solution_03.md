@@ -23,9 +23,7 @@ $$
 ### 1. Derivation of the Standing Wave Equation
 Let $\alpha = kx - \omega t$ and $\beta = kx + \omega t$.
 
-$$
-y_{res} = A [\sin(kx - \omega t) + \sin(kx + \omega t)]
-$$
+
 
 Applying the identity:
 
