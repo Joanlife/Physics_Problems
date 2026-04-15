@@ -6,7 +6,7 @@ Find the equilibrium position for a charge $q_3 = +1$ C placed on the line betwe
 
 ## Theory
 
-Equilibrium occurs when the net force on $q_3$ is zero:
+Equilibrium whereby $q_3$ stays perfectly still occurs when the net force on $q_3$ is zero:
 
 $$
 \vec{F}_{net} = \vec{F}_{13} + \vec{F}_{23} = 0
