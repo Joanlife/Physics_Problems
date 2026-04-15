@@ -82,3 +82,5 @@ The direction is undefined as the force is zero.
 ## Interpretation
 
 In a highly symmetrical system where identical charges are placed at the vertices of a regular polygon, the electric field and the resulting force on a charge placed at the geometric center will always be zero. The attractive "pulls" from each corner perfectly balance each other out.
+
+![alt text](image-2.png)
