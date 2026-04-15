@@ -72,3 +72,5 @@ The equilibrium position is $0.8$ m from the charge $q_1 = +4$ C and $1.2$ m fro
 ## Interpretation
 
 The equilibrium point is closer to the smaller charge ($q_1$) because its weaker field needs a shorter distance to produce a force equal to that of the much stronger charge ($q_2$). This is a stable equilibrium point along the x-axis for $q_3$.
+
+![alt text](image-1.png)
