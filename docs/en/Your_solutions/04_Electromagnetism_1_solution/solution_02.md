@@ -70,3 +70,5 @@ $$
 ## Interpretation
 
 The negative result indicates that the "negative" work required to bring a positive test charge from infinity to this point is greater than the positive work, due to the net negative charge of the configuration. Even though the geometry is symmetric, the potential is non-zero because the charge magnitudes differ.
+
+![alt text](image.png)
