@@ -67,3 +67,9 @@ $$
 ## Interpretation
 
 The electric force is approximately $10^{39}$ times stronger than the gravitational force. In the context of atomic physics, gravity is so weak that it is effectively non-existent. This is why chemical bonds and atomic structures are governed entirely by electromagnetic interactions rather than gravity.
+
+
+
+
+
+ 10^{39}=1 x 10{39}= 1000000000000
