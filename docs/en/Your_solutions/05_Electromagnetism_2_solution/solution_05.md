@@ -60,4 +60,4 @@ $$
 
 ## Interpretation
 
-The force of attraction exists because the plates carry opposite charges. Note that as the voltage increases, the energy stored increases quadratically ($U^2$).
+The force of attraction exists because the plates carry opposite charges. Note that as the voltage increases, the energy stored also5 increases.
