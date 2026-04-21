@@ -46,3 +46,4 @@ $$
 ## Interpretation
 
 Since $n_2 > n_1$, the light slows down and bends **towards the normal** ($\theta_2 < \theta_1$). This is characteristic of light moving from a less dense medium to a more optically dense medium.
+![alt text](image-1.png)
