@@ -38,3 +38,4 @@ $$
 ## Interpretation
 
 Green light is in the middle of the visible spectrum. This is the frequency range at which our retinal cells (photoreceptors) are most efficient at converting photons into electrical signals.
+![alt text](<QN 7.jpeg>)
