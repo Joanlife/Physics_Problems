@@ -53,3 +53,4 @@ $$
 ## Interpretation
 
 This calculation treats the wire as a "current element." Because the distance $r$ is only twice the length of the segment $\Delta L$, this is an approximation. In a real-world scenario with a long wire, we would integrate this formula along the entire length of the conductor.
+![alt text](<diagram 3.jpeg>)
