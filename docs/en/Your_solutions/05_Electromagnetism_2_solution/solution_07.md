@@ -17,7 +17,7 @@ Where $c \approx 3 \times 10^8 \text{ m/s}$.
 ## Step-by-Step Solution
 
 ### 1. Color Identification
-The visible spectrum ranges from roughly $400 \text{ nm}$ (violet) to $700 \text{ nm}$ (red). A wavelength of $550 \text{ nm}$ falls squarely in the **Green/Yellow-Green** portion of the spectrum.
+The visible spectrum ranges from roughly $400 \text{ nm}$ (violet) to $700 \text{ nm}$ (red). A wavelength of $550 \text{ nm}$ falls squarely in the **Green** portion of the spectrum.
 
 ### 2. Frequency Calculation
 Convert $\lambda$ to meters: $550 \text{ nm} = 550 \times 10^{-9} \text{ m}$.
@@ -38,4 +38,5 @@ $$
 ## Interpretation
 
 Green light is in the middle of the visible spectrum. This is the frequency range at which our retinal cells (photoreceptors) are most efficient at converting photons into electrical signals.
+
 ![alt text](<QN 7.jpeg>)
