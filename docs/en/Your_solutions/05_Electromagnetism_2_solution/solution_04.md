@@ -56,3 +56,4 @@ $$
 The torque is at its maximum value when the field is parallel to the loop's plane (meaning the magnetic moment is perpendicular to the field). This torque will act to rotate the loop until its plane is perpendicular to the magnetic field.
 
 
+![alt text](image-2.png)
