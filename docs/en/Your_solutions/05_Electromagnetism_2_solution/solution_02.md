@@ -63,3 +63,5 @@ The direction is perpendicular to the plane containing the wires (into the page,
 ## Interpretation
 
 In a configuration with opposite currents (anti-parallel), the magnetic fields between the wires reinforce each other. If the currents were in the same direction, the fields would cancel at the midpoint.
+
+![alt text](<diagram 2.jpeg>)
