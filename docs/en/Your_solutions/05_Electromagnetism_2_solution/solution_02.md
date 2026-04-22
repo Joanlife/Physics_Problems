@@ -47,7 +47,7 @@ $$
 
 ### 4. Calculate Total Field
 $$
-B_{total} = B_1 + B_2 = 2 \times 10^{-5} + 2 \times 10^{-5} = 4 \times 10^{-5} \text{ T}
+B_{total} = B_1 + B_2 = 2 \times 10^{-5} + 2 \times 10^{-5} = 4\times 10^{-5}   \text{ T}
 $$
 
 ## Final Result
@@ -55,7 +55,7 @@ $$
 The magnitude of the magnetic field at the midpoint is:
 
 $$
-B = 40 \text{ \muT}
+B = 4 \times 10^{-5}  \text{ T}
 $$
 
 The direction is perpendicular to the plane containing the wires (into the page, assuming the "Up/Down" orientation described).
