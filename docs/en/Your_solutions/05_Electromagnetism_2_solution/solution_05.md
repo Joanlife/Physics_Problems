@@ -17,6 +17,8 @@ The following are fundamental formulas for parallel-plate capacitors:
 3. $E = \frac{U}{d}$
 4. $F = \frac{1}{2} Q E,  Q = CU , F=\frac{1}{2} C U E$
 
+- $\epsilon_0$ is the vacuum permittivity, approximately $8.854 \times 10^{-12} \text{ F/m}$.
+
 ## Step-by-Step Solution
 
 ### 1. Capacitance ($C$)
