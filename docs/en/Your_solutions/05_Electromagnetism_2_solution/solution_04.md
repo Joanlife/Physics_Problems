@@ -17,7 +17,7 @@ Where:
 - $I$ is the current.
 - $A$ is the area of the loop.
 - $B$ is the magnetic field strength.
-- $\theta$ is the angle between the magnetic field $\mathbf{B}$ and the **normal** vector (perpendicular) to the loop's plane.
+- $\theta$ is the angle between the magnetic field $\mathbf{B}$ and the **normal** vector.
 
 ## Step-by-Step Solution
 
