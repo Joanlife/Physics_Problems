@@ -38,7 +38,7 @@ $$
 \begin{align}
 Q_{tot} &= C_{eq} \cdot V \\
         &= (10 \times 10^{-6}\,\text{F}) \cdot (10\,\text{V}) \\
-        &= 100 \times 10^{-6}\,\text{C} = 100\,\mu\text{C}
+        &= 100 \times 10^{-6}\,\text{C} 
 \end{align}
 $$
 
@@ -56,8 +56,8 @@ $$
 
 ## Final Result
 
-- **Total Charge:**  $5 \times 10^{-4}\,\text{J}$
-- **Total Energy:** $0.5\,\text{mJ}$
+- **Total Charge:** $100 \times 10^{-6}\,\text{C} $
+- **Total Energy:** $5 \times 10^{-4}\,\text{J}$
 
 ## Interpretation
 In parallel, capacitors combine their ability to store charge. The voltage is identical across both, meaning the larger capacitor stores more charge and more energy than the smaller one.
