@@ -27,14 +27,20 @@ $$
 $$
 
 ### Configuration 3: Two in Series, Parallel with One
-$R_1$ and $R_2$ are in series ($2\,\Omega$), and this branch is parallel to $R_3$ ($1\,\Omega$).
-
+$R_1$ and $R_2$ are in series which results to $R_3$ ($2\,\Omega$), and this branch is parallel to $R_4$ ($1\,\Omega$).
+$$
+R_{eq}=\frac{R_3 R_4}{R_3 + R_4}
+$$
 $$
 R_{eq} = \frac{2 \cdot 1}{2 + 1} = \frac{2}{3}\,\Omega \approx 0.67\,\Omega
 $$
 
 ### Configuration 4: Two in Parallel, Series with One
-$R_1$ and $R_2$ are in parallel ($0.5\,\Omega$), and this combination is in series with $R_3$ ($1\,\Omega$).
+$R_1$ and $R_2$ are in parallel leading to value ($0.5\,\Omega$), and this combination is in series with $R_3$ ($1\,\Omega$).
+$$
+R_{eq}=\frac{R_1 R_2}{R_1 + R_2} +R_3
+$$
+
 
 $$
 R_{eq} = \frac{1 \cdot 1}{1 + 1} + 1 = 0.5 + 1 = 1.5\,\Omega
