@@ -46,6 +46,7 @@ $$
 R_{eq} = \frac{1 \cdot 1}{1 + 1} + 1 = 0.5 + 1 = 1.5\,\Omega
 $$
 
+
 ## Final Result
 The unique equivalent resistances are:
 - $3\,\Omega$
