@@ -1,53 +1,52 @@
-# Task 05 – Percentage Calculation
+# Task 06 – Instrument Precision
 
 ## Problem Statement
-A measurement of time is recorded as $t = 5.45 \pm 0.22$ seconds. What is the percentage uncertainty of this measurement?
+A digital thermometer reads $25.4^\circ\text{C}$. Assuming the uncertainty is half the value of the last digit, what is the absolute uncertainty of this measurement?
 
 ## Theory
-Percentage uncertainty expresses the size of the absolute uncertainty relative to the central measured value as a percentage. It serves as a normalized metric to evaluate the precision of a measurement, independent of the units used. 
+For digital instruments, readings change in discrete increments rather than continuous scales. The finest graduation or the smallest increment that a digital display can record is known as the instrument's resolution (or least count).
 
-The formula to convert absolute uncertainty into percentage uncertainty is:
+When explicit manufacturer calibration data is unavailable, a standard conservative convention in laboratory physics states that the absolute uncertainty $\Delta x$ is equal to half the value of the smallest readable digit (the last decimal place):
 
 $$
-\text{Percentage Uncertainty} = \left( \frac{\Delta t}{t} \right) \cdot 100\%
+\Delta x = \frac{1}{2} \cdot (\text{Resolution})
 $$
-
-Where:
-* $t$ is the central measured value ($5.45\text{ s}$)
-* $\Delta t$ is the absolute uncertainty ($0.22\text{ s}$)
 
 ## Step-by-Step Solution
-Identify the experimental values from the problem statement:
+Identify the last digit of the displayed value:
 
 $$
-t = 5.45\text{ s}, \quad \Delta t = 0.22\text{ s}
+T = 25.4^\circ\text{C}
 $$
 
-Substitute these values into the ratio equation to determine the relative (fractional) uncertainty:
+The last visible digit resides in the tenths place. Therefore, the resolution (the smallest structural step the display can register) is:
 
 $$
-\begin{align}
-\frac{\Delta t}{t} &= \frac{0.22}{5.45} \\
-                   &\approx 0.040367
-\end{align}
+\text{Resolution} = 0.1^\circ\text{C}
 $$
 
-Multiply the fractional uncertainty by 100 to convert it into a percentage:
+Apply the criteria provided in the problem statement to calculate the absolute uncertainty $\Delta T$:
 
 $$
 \begin{align}
-\text{Percentage Uncertainty} &= 0.040367 \cdot 100\% \\
-                             &\approx 4.04\%
+\Delta T &= \frac{1}{2} \cdot 0.1^\circ\text{C} \\
+         &= 0.05^\circ\text{C}
 \end{align}
 $$
 
-Rounding to a standard level of precision (typically two decimal places or matched significant figures):
+Combine the central value with its calculated boundary error to express the complete physical measurement:
 
 ## Final Result
 
 $$
-\text{Percentage Uncertainty} = 4.04\%
+\Delta T = 0.05^\circ\text{C}
+$$
+
+The complete measurement is recorded as:
+
+$$
+T = (25.40 \pm 0.05)^\circ\text{C}
 $$
 
 ## Interpretation
-The absolute uncertainty of $0.22\text{ s}$ constitutes approximately $4.04\%$ of the total measured time of $5.45\text{ s}$. This relatively low percentage indicates a reasonably precise measurement for manual timing or basic laboratory instrumentation.
+An absolute uncertainty of $0.05^\circ\text{C}$ establishes that the true thermodynamic temperature falls safely within the interval of $[25.35^\circ\text{C}, 24.45^\circ\text{C}]$. Because digital displays truncate or round values automatically, this interval reflects the inherent precision limits of the analog-to-digital converter inside the thermometer.
