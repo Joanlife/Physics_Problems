@@ -10,14 +10,14 @@ $$
 V = \frac{4}{3} \pi r^3
 $$
 
-For a physical quantity defined by a power law $V \propto r^3$, the relative uncertainty is found by multiplying the exponent by the relative uncertainty of the base variable:
+For a physical quantity defined by a power law $V \propto r^3$ since the volume formula relies on $r^3$, the relative uncertainty of volume is found by multiplying the exponent by the relative uncertainty of the base variable (radius):
 
 $$
 \frac{\Delta V}{V} = 3 \frac{\Delta r}{r}
 $$
 
 ## Step-by-Step Solution
-First, compute the central value for the volume based on the measured radius:
+First, compute the central value for the volume based on the measured radius whereby $r=6.20$:
 
 $$
 \begin{align}
