@@ -55,4 +55,4 @@ R = (5.00 \pm 0.23) \, \Omega
 $$
 
 ## Interpretation
-The calculated resistance is $5.00 \, \Omega$ with an uncertainty of $0.23 \, \Omega$. Both instruments contribute similarly to the total error, with the current measurement introducing slightly more relative uncertainty ($2.5\%$) compared to the voltage measurement ($2.0\%$).
+The calculated resistance is $5.00 \, \Omega$ with an uncertainty of $0.23 \, \Omega$. Both instruments contribute similarly to the total error, with the current measurement introducing slightly more percentage uncertainty ($2.5\%$) compared to the voltage measurement ($2.0\%$).
