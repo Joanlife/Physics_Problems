@@ -18,7 +18,6 @@ $$
 g(h) = \frac{G M_E}{(R_E + h)^2}
 $$
 
-Apparent weightlessness occurs not from the absence of a gravitational force, but from the absence of a supporting normal force. When an observer and their surrounding environment are subject to identical gravitational acceleration, there is zero relative acceleration between them.
 
 ## Step-by-Step Solution
 
@@ -58,6 +57,8 @@ The acceleration due to gravity at the altitude of the ISS is approximately $8.6
 
 ## Interpretation
 
-The calculation reveals that gravity at 400 km altitude is only slightly weaker than gravity on the ground. Therefore, the term "microgravity" is often misunderstood; gravity is fully present. 
+The calculation reveals that gravity at 400 km altitude is only slightly weaker than gravity on the ground.
 
-Astronauts float because both they and the space station are in a perpetual state of free fall toward the Earth. Because the ISS has a high forward tangential velocity ($v \approx 7.67\,\text{km/s}$), the rate at which its path bends downward matches the rate at which the Earth's surface curves away. Since the crew and the spacecraft fall together with the exact same acceleration ($8.67\,\text{m/s}^2$), no mechanical normal forces are exerted by floors or walls, eliminating the sensation of weight.
+
+
+The ship, the astronauts, and everything inside are trapped in a continuous, endless fall around the planet.Because the Earth is a sphere, the surface continuously curves away. The spaceship moves sideways so fast that as it falls, With nothing to push back against them, they experience complete weightlessness.
