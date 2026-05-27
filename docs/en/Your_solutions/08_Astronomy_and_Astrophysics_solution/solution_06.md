@@ -6,7 +6,7 @@ Calculate the acceleration due to gravity on the surface of the Sun. By what fac
 
 ## Theory
 
-The surface gravity of a spherical celestial body is calculated directly from Newton's field equations. The mass is assumed to act as a point source concentrated at the center of the sphere for all positions at or beyond the surface radius.
+The surface gravity of a spherical celestial body is calculated directly from Newton's field equations. 
 
 $$
 g = \frac{G M}{R^2}
