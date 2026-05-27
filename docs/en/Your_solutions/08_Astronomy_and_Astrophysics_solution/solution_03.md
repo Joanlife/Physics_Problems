@@ -62,3 +62,5 @@ The calculation reveals that gravity at 400 km altitude is only slightly weaker 
 
 
 The ship, the astronauts, and everything inside are trapped in a continuous, endless fall around the planet.Because the Earth is a sphere, the surface continuously curves away. The spaceship moves sideways so fast that as it falls, With nothing to push back against them, they experience complete weightlessness.
+
+![alt text](image.png)
