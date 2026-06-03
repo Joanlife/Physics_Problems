@@ -60,7 +60,7 @@ $$
 
 ## Final Result
 
-One galactic year is approximately 230 million terrestrial years.
+One galactic year corresponds to $2.31 \times 10^8 $ terrestrial years.
 
 ## Interpretation
 
