@@ -6,25 +6,25 @@ According to Hubble's Law, at what distance would a galaxy be receding from us a
 
 ## Theory
 
-Hubble's Law relates the recessional velocity of a galaxy to its proper distance from the observer. The relationship is linear and is given by:
+Hubble's Law relates the seperation velocity of a galaxy to its proper distance from the observer. The relationship is linear and is given by:
 
 $$
 v = H_0 d
 $$
 
 Where:
-* $v$ is the recessional velocity.
+* $v$ is the seperation velocity.
 * $H_0$ is the Hubble constant.
 * $d$ is the proper distance.
 
-To find the distance where the recessional velocity reaches the speed of light ($c$), substitute $v = c$ and solve for $d$.
+To find the distance where the seperation velocity reaches the speed of light ($c$), substitute $v = c$ and solve for $d$.
 
 ## Step-by-Step Solution
 
 1. State the known constants. The speed of light is:
 
 $$
-c \approx 299,792 \text{ km/s}
+c \approx 300,000\text{ km/s}
 $$
 
 2. Rearrange Hubble's Law to isolate $d$:
@@ -36,28 +36,20 @@ $$
 3. Substitute $v = c$ and the given value of $H_0$:
 
 $$
-d = \frac{299,792 \text{ km/s}}{70 \text{ (km/s)/Mpc}}
+d = \frac{300,000 \text{ km/s}}{70 \text{ (km/s)/Mpc}}
 $$
 
 4. Compute the value:
 
 $$
-d \approx 4,282.7 \text{ Mpc}
+d \approx 4,285.7 \text{ Mpc}
 $$
 
-5. Convert the distance into light-years. One megaparsec (Mpc) is approximately $3.26$ million light-years.
 
-$$
-d \approx 4,282.7 \times 3.26 \times 10^6 \text{ light-years}
-$$
-
-$$
-d \approx 13.96 \times 10^9 \text{ light-years}
-$$
 
 ## Final Result
 
-The distance at which a galaxy recedes at the speed of light is approximately $4,283 \text{ Mpc}$, which is equivalent to about $14 \text{ billion light-years}$.
+The distance at which a galaxy recedes at the speed of light is approximately $4,286 \text{ Mpc}$.
 
 ## Interpretation
 
