@@ -40,15 +40,11 @@ $$
 t = \frac{2.365 \times 10^{19} \text{ km}}{110 \text{ km/s}} \approx 2.15 \times 10^{17} \text{ s}
 $$
 
-4. Convert the time into years:
 
-$$
-t \text{ (years)} = \frac{2.15 \times 10^{17} \text{ s}}{3.154 \times 10^7 \text{ s/year}} \approx 6.8 \times 10^9 \text{ years}
-$$
 
 ## Final Result
 
-Assuming constant velocity, the collision will occur in approximately 6.8 billion years.
+Assuming constant velocity, the time for the collision will be  $2.15 \times 10^{17} \text{ s}$
 
 ## Interpretation
 
