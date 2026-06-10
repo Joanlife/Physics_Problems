@@ -14,22 +14,26 @@ $$
 
 ## Step-by-Step Solution
 
-1. Identify the diameter of the Milky Way galaxy. The visible disk is generally estimated to be:
+1. Identify the diameter of the Milky Way galaxy. The visible disk and speed of light  is generally estimated to be:
 
 $$
 D \approx 100,000 \text{ ly}
 $$
 
+$$
+c=1ly
+$$
+
 2. Calculate the time for the initial message to reach the destination:
 
 $$
-t_{send} = \frac{D}{c} = 100,000 \text{ years}
+t_{send} = \frac{100000}{1}= 100,000 \text{ years}
 $$
 
 3. Calculate the time for the reply message to return:
 
 $$
-t_{reply} = \frac{D}{c} = 100,000 \text{ years}
+t_{reply} = \frac{100000}{1} = 100,000 \text{ years}
 $$
 
 4. Compute the total exchange time:
