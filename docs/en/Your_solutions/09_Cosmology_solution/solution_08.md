@@ -27,18 +27,27 @@ $$
 $$
 \frac{N_{stars}}{N_{people}} = \frac{200 \times 10^9}{8 \times 10^9} = 25
 $$
-
 ### Part C: Counting Time
-1. Define the counting rate and total number:
+
+1. **Define the counting rate and total number:**
    * Rate: $1 \text{ star/s}$
-   * Total stars $N_{stars} = 200 \times 10^9$
-2. Total seconds required is $200 \times 10^9 \text{ s}$.
-3. Convert to years:
+   * Total stars $N_{\text{stars}} = 200 \times 10^9$
 
-$$
-t \text{ (years)} = \frac{200 \times 10^9}{3.154 \times 10^7 \text{ s/year}} \approx 6,341 \text{ years}
-$$
+2. **Total seconds required:**
+   $$\text{Total seconds} = \frac{200 \times 10^9 \text{ stars}}{1 \text{ star/s}} = 200 \times 10^9 \text{ s}$$
 
+3. **Convert to years:**
+   Using the approximation that $1 \text{ year} \approx 3.154 \times 10^7 \text{ s}$:
+
+   $$t \text{ (years)} = \frac{200 \times 10^9 \text{ s}}{3.154 \times 10^7 \text{ s/year}} \approx 6,341 \text{ years}$$
+
+---
+
+### Final Result
+
+* **a)** The ratio of diameter to thickness is approximately 100:1.
+* **b)** Each person would receive 25 stars.
+* **c)** It would take over 6,300 years to count all the stars.
 ## Final Result
 
 a) The ratio of diameter to thickness is approximately 100:1.
