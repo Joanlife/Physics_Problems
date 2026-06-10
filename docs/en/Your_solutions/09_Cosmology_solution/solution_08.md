@@ -47,7 +47,7 @@ $$
 
 * **a)** The ratio of diameter to thickness is approximately 100:1.
 * **b)** Each person would receive 25 stars.
-* **c)** It would take over 6,300 years to count all the stars.
+* **c)** It would take over 6,341 years to count all the stars.
 ## Final Result
 
 a) The ratio of diameter to thickness is approximately 100:1.
